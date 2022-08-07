@@ -111,12 +111,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
-    <InterfaceDefinition Include="Screens\HomeScreen2.xib" />
     <InterfaceDefinition Include="Screens\EditJournalScreen.xib" />
     <InterfaceDefinition Include="Screens\ImageScreen.xib" />
     <None Include="packages.config" />
-    <InterfaceDefinition Include="Screens\ListScreen.xib" />
-    <InterfaceDefinition Include="Screens\EditFoodJournalScreen.xib" />
     <InterfaceDefinition Include="Screens\EditImportant.xib" />
     <None Include="GoogleService-Info.plist" />
     <None Include="Entitlements.plist" />
@@ -148,17 +145,9 @@
     <Compile Include="Screens\HomeScreen.cs" />
     <Compile Include="Screens\HelloWorldScreen.cs" />
     <Compile Include="Screens\HelloUniverseScreen.cs" />
-    <Compile Include="Screens\HomeScreen2.cs" />
-    <Compile Include="Screens\HomeScreen2.designer.cs">
-      <DependentUpon>HomeScreen2.cs</DependentUpon>
-    </Compile>
     <Compile Include="Screens\ImageScreen.cs" />
     <Compile Include="Screens\ImageScreen.designer.cs" />
-    <Compile Include="Screens\ListScreen.cs" />
-    <Compile Include="Screens\ListScreen.designer.cs" />
     <Compile Include="ICloudFileRead.cs" />
-    <Compile Include="Screens\EditFoodJournalScreen.cs" />
-    <Compile Include="Screens\EditFoodJournalScreen.designer.cs" />
     <Compile Include="Screens\EditImportant.cs" />
     <Compile Include="Screens\EditImportant.designer.cs" />
     <Compile Include="Screens\EditVideo.cs" />

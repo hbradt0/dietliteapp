@@ -39,7 +39,6 @@ namespace Hello_MultiScreen_iPhone
         public nfloat ResponsiveWidthLeft = 300;
         public nfloat ResponsiveSizeX = 300;
         public nfloat ResponsiveWidthRight = 300;
-        public UIButton CloudLoginButton;
 
         private NSObject keyBoardWillShow;
         private NSObject keyBoardWillHide;
@@ -49,7 +48,6 @@ namespace Hello_MultiScreen_iPhone
         private bool keyboardShowing;
         private bool keyboardOpen = false;
 
-        public ListScreen listScreen;
 
         //loads the HelloWorldScreen.xib file and connects it to this object
         public HelloWorldScreen() : base("HelloWorldScreen", null)
@@ -74,7 +72,6 @@ namespace Hello_MultiScreen_iPhone
 
             //Initialize Buttons
             Button3 = new UIButton(UIButtonType.System);
-            CloudLoginButton = new UIButton(UIButtonType.System);
             booktextView = new UITextView()
             {
                 Editable = false
@@ -118,14 +115,6 @@ namespace Hello_MultiScreen_iPhone
             var text1 = EmailFileRead.ReadText();
             booktextView.Text = text1;
 
-            CloudLoginButton = new UIButton(UIButtonType.System);
-
-            CloudLoginButton.SetTitleColor(UIColor.White, UIControlState.Normal);
-            CloudLoginButton.BackgroundColor = HomeScreen.buttoncolor;
-            CloudLoginButton.SetTitle("Grocery List", UIControlState.Normal);
-
-            CloudLoginButton.AddTarget(CloudLoginScreen, UIControlEvent.TouchUpInside);
-
             //ScrollView
 
             scrollView = new UIScrollView
@@ -146,7 +135,6 @@ namespace Hello_MultiScreen_iPhone
             ButtonShare.AddTarget(ShareButtonClick, UIControlEvent.TouchUpInside);
 
             scrollView.AddSubview(helpView);
-            scrollView.Add(CloudLoginButton);
             scrollView.AddSubview(booktextView);
             scrollView.Add(ButtonShare);
             scrollView.Add(healthAppPicture);
@@ -156,19 +144,11 @@ namespace Hello_MultiScreen_iPhone
 
         }
 
-        public void CloudLoginScreen(object sender, EventArgs eventArgs)
-        {
-            //back to home screen
-            if (this.listScreen == null) { this.listScreen = new ListScreen(); }
-            this.NavigationController.PushViewController(this.listScreen, true);
-        }
-
          
 
         public void curveRadius()
         {
             Button3.Layer.CornerRadius = 10;
-            CloudLoginButton.Layer.CornerRadius = 10;
         }
 
 
@@ -256,8 +236,6 @@ namespace Hello_MultiScreen_iPhone
             booktextView.Text = text1;
             UIApplication.SharedApplication.KeyWindow.EndEditing(true);
             keyboardOpen = false;
-
-            CloudLoginButton.Frame = new CGRect(ResponsiveWidthRight, booktextView.Frame.Bottom + 10, 100, 30);
 
             booktextView.Frame = new CGRect(ResponsiveWidthLeft, View.Frame.Top + 30, ResponsiveSizeX, 410);
 
