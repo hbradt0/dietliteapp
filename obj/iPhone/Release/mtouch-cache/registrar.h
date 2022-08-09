@@ -17,22 +17,20 @@
 #import <AuthenticationServices/AuthenticationServices.h>
 #import <CoreGraphics/CoreGraphics.h>
 
-@class UITableViewSource;
-@class TableSource;
 @class UIApplicationDelegate;
 @class AppDelegate;
 @class HelloWorldScreen;
+@class UITableViewSource;
 @class Hello_MultiScreen_iPhone_TableSource;
 @class EmailReader_ICloudFileRead;
 @class EditJournalScreen;
 @class HomeScreen;
 @class HelloUniverseScreen;
-@class HomeScreen2;
 @class ImageScreen;
-@class ListScreen;
-@class EditFoodJournalScreen;
 @class EditImportant;
 @class EditVideo;
+@class EditFoodJournalScreen;
+@class HomeScreen2;
 @class SFSafariViewControllerDelegate;
 @class CNContactPickerDelegate;
 @class Foundation_NSDispatcher;
@@ -187,26 +185,6 @@ struct trampoline_struct_ddi {
 @class OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource;
 @class OpenTK_Platform_iPhoneOS_iPhoneOSGameView;
 
-@interface UITableViewSource : NSObject<UIScrollViewDelegate, UIScrollViewDelegate> {
-}
-	-(id) init;
-@end
-
-@interface TableSource : NSObject<UIScrollViewDelegate, UIScrollViewDelegate, UIScrollViewDelegate> {
-}
-	-(void) release;
-	-(id) retain;
-	-(GCHandle) xamarinGetGCHandle;
-	-(bool) xamarinSetGCHandle: (GCHandle) gchandle flags: (enum XamarinGCHandleFlags) flags;
-	-(enum XamarinGCHandleFlags) xamarinGetFlags;
-	-(void) xamarinSetFlags: (enum XamarinGCHandleFlags) flags;
-	-(UITableViewCell *) tableView:(UITableView *)p0 cellForRowAtIndexPath:(NSIndexPath *)p1;
-	-(NSInteger) tableView:(UITableView *)p0 numberOfRowsInSection:(NSInteger)p1;
-	-(void) tableView:(UITableView *)p0 didSelectRowAtIndexPath:(NSIndexPath *)p1;
-	-(BOOL) conformsToProtocol:(void *)p0;
-	-(id) init;
-@end
-
 @interface UIApplicationDelegate : NSObject<UIApplicationDelegate> {
 }
 	-(id) init;
@@ -237,6 +215,11 @@ struct trampoline_struct_ddi {
 	-(void) didReceiveMemoryWarning;
 	-(void) viewDidAppear:(BOOL)p0;
 	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) init;
+@end
+
+@interface UITableViewSource : NSObject<UIScrollViewDelegate, UIScrollViewDelegate> {
+}
 	-(id) init;
 @end
 
@@ -317,51 +300,7 @@ struct trampoline_struct_ddi {
 	-(id) init;
 @end
 
-@interface HomeScreen2 : UIViewController {
-}
-	-(void) release;
-	-(id) retain;
-	-(GCHandle) xamarinGetGCHandle;
-	-(bool) xamarinSetGCHandle: (GCHandle) gchandle flags: (enum XamarinGCHandleFlags) flags;
-	-(enum XamarinGCHandleFlags) xamarinGetFlags;
-	-(void) xamarinSetFlags: (enum XamarinGCHandleFlags) flags;
-	-(void) viewDidLoad;
-	-(void) viewDidAppear:(BOOL)p0;
-	-(void) didReceiveMemoryWarning;
-	-(BOOL) conformsToProtocol:(void *)p0;
-	-(id) init;
-@end
-
 @interface ImageScreen : UIViewController {
-}
-	-(void) release;
-	-(id) retain;
-	-(GCHandle) xamarinGetGCHandle;
-	-(bool) xamarinSetGCHandle: (GCHandle) gchandle flags: (enum XamarinGCHandleFlags) flags;
-	-(enum XamarinGCHandleFlags) xamarinGetFlags;
-	-(void) xamarinSetFlags: (enum XamarinGCHandleFlags) flags;
-	-(void) didReceiveMemoryWarning;
-	-(void) viewDidAppear:(BOOL)p0;
-	-(BOOL) conformsToProtocol:(void *)p0;
-	-(id) init;
-@end
-
-@interface ListScreen : UIViewController {
-}
-	-(void) release;
-	-(id) retain;
-	-(GCHandle) xamarinGetGCHandle;
-	-(bool) xamarinSetGCHandle: (GCHandle) gchandle flags: (enum XamarinGCHandleFlags) flags;
-	-(enum XamarinGCHandleFlags) xamarinGetFlags;
-	-(void) xamarinSetFlags: (enum XamarinGCHandleFlags) flags;
-	-(void) viewDidLoad;
-	-(void) viewDidAppear:(BOOL)p0;
-	-(void) didReceiveMemoryWarning;
-	-(BOOL) conformsToProtocol:(void *)p0;
-	-(id) init;
-@end
-
-@interface EditFoodJournalScreen : UIViewController {
 }
 	-(void) release;
 	-(id) retain;
@@ -400,6 +339,35 @@ struct trampoline_struct_ddi {
 	-(void) didReceiveMemoryWarning;
 	-(void) viewDidDisappear:(BOOL)p0;
 	-(void) viewDidAppear:(BOOL)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) init;
+@end
+
+@interface EditFoodJournalScreen : UIViewController {
+}
+	-(void) release;
+	-(id) retain;
+	-(GCHandle) xamarinGetGCHandle;
+	-(bool) xamarinSetGCHandle: (GCHandle) gchandle flags: (enum XamarinGCHandleFlags) flags;
+	-(enum XamarinGCHandleFlags) xamarinGetFlags;
+	-(void) xamarinSetFlags: (enum XamarinGCHandleFlags) flags;
+	-(void) didReceiveMemoryWarning;
+	-(void) viewDidAppear:(BOOL)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) init;
+@end
+
+@interface HomeScreen2 : UIViewController {
+}
+	-(void) release;
+	-(id) retain;
+	-(GCHandle) xamarinGetGCHandle;
+	-(bool) xamarinSetGCHandle: (GCHandle) gchandle flags: (enum XamarinGCHandleFlags) flags;
+	-(enum XamarinGCHandleFlags) xamarinGetFlags;
+	-(void) xamarinSetFlags: (enum XamarinGCHandleFlags) flags;
+	-(void) viewDidLoad;
+	-(void) viewDidAppear:(BOOL)p0;
+	-(void) didReceiveMemoryWarning;
 	-(BOOL) conformsToProtocol:(void *)p0;
 	-(id) init;
 @end

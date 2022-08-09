@@ -76,7 +76,7 @@ namespace Hello_MultiScreen_iPhone
                 bannerView = new BannerView(AdSizeCons.Banner, new CGPoint(0, 0));
             bannerView.TranslatesAutoresizingMaskIntoConstraints = true;
             scrollView.AddSubview(bannerView);
-            bannerView.AdUnitId = "ca-app-pub-6939141027430284/4491299143";
+            bannerView.AdUnitId = "ca-app-pub-6939141027430284/1654807265";
             bannerView.RootViewController = this;
             bannerView.LoadRequest(Request.GetDefaultRequest());
             //this.bannerView.Delegate = this;

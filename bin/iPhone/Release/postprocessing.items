@@ -9,7 +9,7 @@
       <dSYMInfoPlistRelativePath>Hello_MultiScreen_iPhone.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
       <SymbolFile>obj/iPhone/Release/mtouch-symbols.list</SymbolFile>
       <DSymName>Hello_MultiScreen_iPhone.app.dSYM</DSymName>
-      <SourceProjectPath>/Users/psargent/phillbookAppDiet</SourceProjectPath>
+      <SourceProjectPath>/Users/psargent/phillbookAppDietLite</SourceProjectPath>
     </_PostProcessingItem>
   </ItemGroup>
 </Project>

@@ -30,9 +30,9 @@
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>The app allows a user to use photos taken for before/after weight loss/body change comparisons.</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1</string>
+	<string>2</string>
 	<key>CFBundleVersion</key>
-	<string>56</string>
+	<string>2</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict/>
 	<key>UIRequiresFullScreen</key>
@@ -44,7 +44,7 @@
 	<key>NSAllowsArbitraryLoadsInWebContent</key>
 	<true/>
 	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-6939141027430284~3837796672</string>
+	<string>ca-app-pub-6939141027430284~2254955950</string>
 	<key>gad_preferred_webview</key>
 	<string>wkwebview</string>
 	<key>SKAdNetworkItems</key>

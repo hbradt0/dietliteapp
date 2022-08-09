@@ -1,17 +1,16 @@
 ﻿<Properties StartupConfiguration="{A10944A3-80E8-4A8D-A6F5-1A10606AAE60}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Info.plist">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Screens/HomeScreen2.designer.cs">
     <Files>
       <File FileName="Screens/HelloUniverseScreen.cs" Line="397" Column="10" />
-      <File FileName="Screens/EditFoodJournalScreen.cs" />
+      <File FileName="Screens/EditFoodJournalScreen.cs" Line="1" Column="1" />
       <File FileName="Screens/EditImportant.cs" />
       <File FileName="Screens/EditJournalScreen.cs" />
       <File FileName="Screens/HelloWorldScreen 2.cs" />
       <File FileName="../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.Shared.targets" />
-      <File FileName="Screens/ListScreen.designer.cs" />
       <File FileName="Screens/ImageScreen.cs" />
       <File FileName="Screens/EditImportant.designer.cs" />
       <File FileName="Screens/HomeScreen.cs" />
-      <File FileName="Screens/HomeScreen2.cs" />
+      <File FileName="Screens/HomeScreen2.cs" Line="1" Column="1" />
       <File FileName="EmailFileRead.cs" />
       <File FileName="Entitlements.plist" />
       <File FileName="AppDelegate.cs" />
@@ -21,6 +20,8 @@
       <File FileName="Screens/EditVideo.cs" />
       <File FileName="Screens/EditVideo.designer.cs" />
       <File FileName="Screens/HelloWorldScreen.cs" />
+      <File FileName="Screens/EditFoodJournalScreen.designer.cs" Line="1" Column="1" />
+      <File FileName="Screens/HomeScreen2.designer.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -29,7 +30,7 @@
           <Node name="Hello_MultiScreen_iPhone" expanded="True">
             <Node name="Hello_MultiScreen_iPhone" expanded="True">
               <Node name="Resources" expanded="True" />
-              <Node name="Screens" expanded="True" selected="True" />
+              <Node name="Screens" expanded="True" />
             </Node>
           </Node>
         </State>

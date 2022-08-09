@@ -1,68 +1,38 @@
-objc[3198]: Class NSURLSessionDelegate is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/NetworkServiceProxy.framework/NetworkServiceProxy (0x7fff87c50698) and /Users/psargent/Library/Developer/CoreSimulator/Devices/3DA00414-3EDA-4EB8-B6EF-FD95F53408A5/data/Containers/Bundle/Application/4CBBE03B-D473-48AE-91B5-0DB3C2A63E34/Hello_MultiScreen_iPhone.app/Hello_MultiScreen_iPhone (0x10ebc2f40). One of the two will be used. Which one is undefined.
+objc[6967]: Class NSURLSessionDelegate is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/NetworkServiceProxy.framework/NetworkServiceProxy (0x7fff87c50698) and /Users/psargent/Library/Developer/CoreSimulator/Devices/2155B3C3-6876-41F9-9B1B-462DF1BD715D/data/Containers/Bundle/Application/0D195B92-0F5B-4128-A437-557A606FBC79/Hello_MultiScreen_iPhone.app/Hello_MultiScreen_iPhone (0x1089d7f40). One of the two will be used. Which one is undefined.
 MonoTouch: Could not install sigaction override, unexpected sigaction implementation.
-2022-08-07 16:57:34.747558-0700 Hello_MultiScreen_iPhone[3198:88999] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=3198
-2022-08-07 16:57:34.747838-0700 Hello_MultiScreen_iPhone[3198:88999] SecTaskCopyDebugDescription: Hello_MultiScree[3198]/0#-1 LF=0
-2022-08-07 16:57:34.754297-0700 Hello_MultiScreen_iPhone[3198:88999] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=3198
-2022-08-07 16:57:34.754643-0700 Hello_MultiScreen_iPhone[3198:88999] SecTaskCopyDebugDescription: Hello_MultiScree[3198]/0#-1 LF=0
-2022-08-07 16:57:34.785535-0700 Hello_MultiScreen_iPhone[3198:88999] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=3198
-2022-08-07 16:57:34.785806-0700 Hello_MultiScreen_iPhone[3198:88999] SecTaskCopyDebugDescription: Hello_MultiScree[3198]/0#-1 LF=0
-2022-08-07 16:57:34.825822-0700 Hello_MultiScreen_iPhone[3198:89078] [unspecified] container_system_group_path_for_identifier: error = ((container_error_t)98) NOT_CODESIGNED
-2022-08-07 16:57:34.825959-0700 Hello_MultiScreen_iPhone[3198:89078] [MC] Error getting system group container for systemgroup.com.apple.configurationprofiles: 98
-2022-08-07 16:57:34.826372-0700 Hello_MultiScreen_iPhone[3198:89078] [MC] Failed to get profile system group container path. Overriding with expected path: /Users/psargent/Library/Developer/CoreSimulator/Devices/3DA00414-3EDA-4EB8-B6EF-FD95F53408A5/data/Containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles
-2022-08-07 16:57:34.866963-0700 Hello_MultiScreen_iPhone[3198:88999] <Google> To get test ads on this device, set: 
+2022-08-09 08:38:32.692231-0700 Hello_MultiScreen_iPhone[6967:438600] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=6967
+2022-08-09 08:38:32.692734-0700 Hello_MultiScreen_iPhone[6967:438600] SecTaskCopyDebugDescription: Hello_MultiScree[6967]/0#-1 LF=0
+2022-08-09 08:38:32.700835-0700 Hello_MultiScreen_iPhone[6967:438600] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=6967
+2022-08-09 08:38:32.701145-0700 Hello_MultiScreen_iPhone[6967:438600] SecTaskCopyDebugDescription: Hello_MultiScree[6967]/0#-1 LF=0
+2022-08-09 08:38:32.734851-0700 Hello_MultiScreen_iPhone[6967:438600] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=6967
+2022-08-09 08:38:32.735196-0700 Hello_MultiScreen_iPhone[6967:438600] SecTaskCopyDebugDescription: Hello_MultiScree[6967]/0#-1 LF=0
+2022-08-09 08:38:32.777872-0700 Hello_MultiScreen_iPhone[6967:438616] [unspecified] container_system_group_path_for_identifier: error = ((container_error_t)98) NOT_CODESIGNED
+2022-08-09 08:38:32.777975-0700 Hello_MultiScreen_iPhone[6967:438616] [MC] Error getting system group container for systemgroup.com.apple.configurationprofiles: 98
+2022-08-09 08:38:32.778245-0700 Hello_MultiScreen_iPhone[6967:438616] [MC] Failed to get profile system group container path. Overriding with expected path: /Users/psargent/Library/Developer/CoreSimulator/Devices/2155B3C3-6876-41F9-9B1B-462DF1BD715D/data/Containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles
+2022-08-09 08:38:32.820191-0700 Hello_MultiScreen_iPhone[6967:438600] <Google> To get test ads on this device, set: 
 Objective-C
 	GADMobileAds.sharedInstance.requestConfiguration.testDeviceIdentifiers = @[ GADSimulatorID ];
 Swift
 	GADMobileAds.sharedInstance().requestConfiguration.testDeviceIdentifiers = [ GADSimulatorID ]
-2022-08-07 16:57:34.879845-0700 Hello_MultiScreen_iPhone[3198:89038]  - <Google>[I-ACS025031] AdMob App ID changed. Original, new: (nil), ca-app-pub-6939141027430284~3837796672
-2022-08-07 16:57:34.881588-0700 Hello_MultiScreen_iPhone[3198:89086]  - <Google>[I-ACS023007] Analytics v.80901000 started
-2022-08-07 16:57:34.881809-0700 Hello_MultiScreen_iPhone[3198:89086]  - <Google>[I-ACS023008] To enable debug logging set the following application argument: -APMAnalyticsDebugEnabled (see http://goo.gl/RfcP7r)
-2022-08-07 16:57:34.890541-0700 Hello_MultiScreen_iPhone[3198:89085] [Client] Synchronous remote object proxy returned error: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process." UserInfo={NSDebugDescription=The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process.}
-2022-08-07 16:57:34.890567-0700 Hello_MultiScreen_iPhone[3198:89078] [Client] Updating selectors failed with: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process." UserInfo={NSDebugDescription=The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process.}
-2022-08-07 16:57:34.891033-0700 Hello_MultiScreen_iPhone[3198:89085] [Client] Synchronous remote object proxy returned error: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process." UserInfo={NSDebugDescription=The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process.}
-2022-08-07 16:57:34.891068-0700 Hello_MultiScreen_iPhone[3198:89078] [Client] Updating selectors failed with: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process." UserInfo={NSDebugDescription=The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process.}
-2022-08-07 16:57:34.891449-0700 Hello_MultiScreen_iPhone[3198:89078] [Client] Updating selectors failed with: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process." UserInfo={NSDebugDescription=The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process.}
-2022-08-07 16:57:34.891571-0700 Hello_MultiScreen_iPhone[3198:89085] [Client] Synchronous remote object proxy returned error: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process." UserInfo={NSDebugDescription=The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process.}
-2022-08-07 16:57:34.894623-0700 Hello_MultiScreen_iPhone[3198:89078] [Client] Updating selectors failed with: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process." UserInfo={NSDebugDescription=The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process.}
-2022-08-07 16:57:34.894906-0700 Hello_MultiScreen_iPhone[3198:89078] [Client] Updating selectors after delegate addition failed with: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process." UserInfo={NSDebugDescription=The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process.}
-2022-08-07 16:57:34.903147-0700 Hello_MultiScreen_iPhone[3198:89038] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=3198
-2022-08-07 16:57:34.903588-0700 Hello_MultiScreen_iPhone[3198:89038] SecTaskCopyDebugDescription: Hello_MultiScree[3198]/0#-1 LF=0
-2022-08-07 16:57:34.908968-0700 Hello_MultiScreen_iPhone[3198:88999] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=3198
-2022-08-07 16:57:34.909251-0700 Hello_MultiScreen_iPhone[3198:88999] SecTaskCopyDebugDescription: Hello_MultiScree[3198]/0#-1 LF=0
-2022-08-07 16:57:34.909559-0700 Hello_MultiScreen_iPhone[3198:88999] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=3198
-2022-08-07 16:57:34.909810-0700 Hello_MultiScreen_iPhone[3198:88999] SecTaskCopyDebugDescription: Hello_MultiScree[3198]/0#-1 LF=0
-2022-08-07 16:57:34.912719-0700 Hello_MultiScreen_iPhone[3198:89078]  - <Google>[I-ACS800023] No pending snapshot to activate. SDK name: app_measurement
-2022-08-07 16:57:34.923330-0700 Hello_MultiScreen_iPhone[3198:89085]  - <Google>[I-ACS023012] Analytics collection enabled
-2022-08-07 16:57:34.941245-0700 Hello_MultiScreen_iPhone[3198:88999] [ViewportSizing] maximumViewportInset cannot be larger than frame
-2022-08-07 16:57:34.941384-0700 Hello_MultiScreen_iPhone[3198:88999] [ViewportSizing] minimumViewportInset cannot be larger than frame
-2022-08-07 16:57:35.062576-0700 Hello_MultiScreen_iPhone[3198:88999] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=3198
-2022-08-07 16:57:35.062782-0700 Hello_MultiScreen_iPhone[3198:88999] SecTaskCopyDebugDescription: Hello_MultiScree[3198]/0#-1 LF=0
-2022-08-07 16:57:35.062997-0700 Hello_MultiScreen_iPhone[3198:88999] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=3198
-2022-08-07 16:57:35.063156-0700 Hello_MultiScreen_iPhone[3198:88999] SecTaskCopyDebugDescription: Hello_MultiScree[3198]/0#-1 LF=0
-2022-08-07 16:57:35.065915-0700 Hello_MultiScreen_iPhone[3198:88999] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=3198
-2022-08-07 16:57:35.066153-0700 Hello_MultiScreen_iPhone[3198:88999] SecTaskCopyDebugDescription: Hello_MultiScree[3198]/0#-1 LF=0
-2022-08-07 16:57:35.093120-0700 Hello_MultiScreen_iPhone[3198:88999] [plugin] AddInstanceForFactory: No factory registered for id <CFUUID 0x6000029bc660> F8BB1C28-BAE8-11D6-9C31-00039315CD46
-2022-08-07 16:57:35.122321-0700 Hello_MultiScreen_iPhone[3198:89083] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=3198
-2022-08-07 16:57:35.122629-0700 Hello_MultiScreen_iPhone[3198:89083] SecTaskCopyDebugDescription: Hello_MultiScree[3198]/0#-1 LF=0
-2022-08-07 16:57:35.203775-0700 Hello_MultiScreen_iPhone[3198:88999] [unspecified] container_system_group_path_for_identifier: error = ((container_error_t)98) NOT_CODESIGNED
-2022-08-07 16:57:35.319954-0700 Hello_MultiScreen_iPhone[3198:89083] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=3198
-2022-08-07 16:57:35.320240-0700 Hello_MultiScreen_iPhone[3198:89083] SecTaskCopyDebugDescription: Hello_MultiScree[3198]/0#-1 LF=0
-2022-08-07 16:57:35.320520-0700 Hello_MultiScreen_iPhone[3198:89083] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=3198
-2022-08-07 16:57:35.320744-0700 Hello_MultiScreen_iPhone[3198:89083] SecTaskCopyDebugDescription: Hello_MultiScree[3198]/0#-1 LF=0
-2022-08-07 16:57:35.369669-0700 Hello_MultiScreen_iPhone[3198:89087] [boringssl] boringssl_metrics_log_metric_block_invoke(153) Failed to log metrics
-2022-08-07 16:57:35.750570-0700 Hello_MultiScreen_iPhone[3198:88999] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=3198
-2022-08-07 16:57:35.750823-0700 Hello_MultiScreen_iPhone[3198:88999] SecTaskCopyDebugDescription: Hello_MultiScree[3198]/0#-1 LF=0
-2022-08-07 16:57:35.751066-0700 Hello_MultiScreen_iPhone[3198:88999] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=3198
-2022-08-07 16:57:35.751248-0700 Hello_MultiScreen_iPhone[3198:88999] SecTaskCopyDebugDescription: Hello_MultiScree[3198]/0#-1 LF=0
-2022-08-07 16:57:35.753498-0700 Hello_MultiScreen_iPhone[3198:88999] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=3198
-2022-08-07 16:57:35.753696-0700 Hello_MultiScreen_iPhone[3198:88999] SecTaskCopyDebugDescription: Hello_MultiScree[3198]/0#-1 LF=0
-2022-08-07 16:57:36.147644-0700 Hello_MultiScreen_iPhone[3198:88999] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=3198
-2022-08-07 16:57:36.147893-0700 Hello_MultiScreen_iPhone[3198:88999] SecTaskCopyDebugDescription: Hello_MultiScree[3198]/0#-1 LF=0
-2022-08-07 16:57:36.212168-0700 Hello_MultiScreen_iPhone[3198:89087] [boringssl] boringssl_metrics_log_metric_block_invoke(153) Failed to log metrics
-2022-08-07 16:57:46.077143-0700 Hello_MultiScreen_iPhone[3198:88999] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=3198
-2022-08-07 16:57:46.077418-0700 Hello_MultiScreen_iPhone[3198:88999] SecTaskCopyDebugDescription: Hello_MultiScree[3198]/0#-1 LF=0
-2022-08-07 16:57:53.864817-0700 Hello_MultiScreen_iPhone[3198:88999] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=3198
-2022-08-07 16:57:53.865053-0700 Hello_MultiScreen_iPhone[3198:88999] SecTaskCopyDebugDescription: Hello_MultiScree[3198]/0#-1 LF=0
-2022-08-07 16:57:53.865276-0700 Hello_MultiScreen_iPhone[3198:88999] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=3198
-2022-08-07 16:57:53.865474-0700 Hello_MultiScreen_iPhone[3198:88999] SecTaskCopyDebugDescription: Hello_MultiScree[3198]/0#-1 LF=0
-2022-08-07 16:57:53.867719-0700 Hello_MultiScreen_iPhone[3198:88999] Se
+2022-08-09 08:38:32.829704-0700 Hello_MultiScreen_iPhone[6967:438618]  - <Google>[I-ACS025031] AdMob App ID changed. Original, new: (nil), ca-app-pub-6939141027430284~2254955950
+2022-08-09 08:38:32.830940-0700 Hello_MultiScreen_iPhone[6967:438657]  - <Google>[I-ACS023007] Analytics v.80901000 started
+2022-08-09 08:38:32.831146-0700 Hello_MultiScreen_iPhone[6967:438657]  - <Google>[I-ACS023008] To enable debug logging set the following application argument: -APMAnalyticsDebugEnabled (see http://goo.gl/RfcP7r)
+2022-08-09 08:38:32.838415-0700 Hello_MultiScreen_iPhone[6967:438618] [Client] Synchronous remote object proxy returned error: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process." UserInfo={NSDebugDescription=The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process.}
+2022-08-09 08:38:32.838431-0700 Hello_MultiScreen_iPhone[6967:438656] [Client] Updating selectors failed with: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process." UserInfo={NSDebugDescription=The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process.}
+2022-08-09 08:38:32.838828-0700 Hello_MultiScreen_iPhone[6967:438618] [Client] Synchronous remote object proxy returned error: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process." UserInfo={NSDebugDescription=The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process.}
+2022-08-09 08:38:32.838866-0700 Hello_MultiScreen_iPhone[6967:438656] [Client] Updating selectors failed with: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process." UserInfo={NSDebugDescription=The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process.}
+2022-08-09 08:38:32.839248-0700 Hello_MultiScreen_iPhone[6967:438618] [Client] Synchronous remote object proxy returned error: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process." UserInfo={NSDebugDescription=The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process.}
+2022-08-09 08:38:32.839308-0700 Hello_MultiScreen_iPhone[6967:438656] [Client] Updating selectors failed with: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process." UserInfo={NSDebugDescription=The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process.}
+2022-08-09 08:38:32.841497-0700 Hello_MultiScreen_iPhone[6967:438656] [Client] Updating selectors failed with: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process." UserInfo={NSDebugDescription=The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process.}
+2022-08-09 08:38:32.841652-0700 Hello_MultiScreen_iPhone[6967:438656] [Client] Updating selectors after delegate addition failed with: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process." UserInfo={NSDebugDescription=The connection to service named com.apple.commcenter.coretelephony.xpc was invalidated: failed at lookup with error 3 - No such process.}
+2022-08-09 08:38:32.842270-0700 Hello_MultiScreen_iPhone[6967:438660]  - <Google>[I-ACS800023] No pending snapshot to activate. SDK name: app_measurement
+2022-08-09 08:38:32.847767-0700 Hello_MultiScreen_iPhone[6967:438656] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=6967
+2022-08-09 08:38:32.848049-0700 Hello_MultiScreen_iPhone[6967:438656] SecTaskCopyDebugDescription: Hello_MultiScree[6967]/0#-1 LF=0
+2022-08-09 08:38:32.851836-0700 Hello_MultiScreen_iPhone[6967:438617]  - <Google>[I-ACS023012] Analytics collection enabled
+2022-08-09 08:38:32.852881-0700 Hello_MultiScreen_iPhone[6967:438600] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=6967
+2022-08-09 08:38:32.853088-0700 Hello_MultiScreen_iPhone[6967:438600] SecTaskCopyDebugDescription: Hello_MultiScree[6967]/0#-1 LF=0
+2022-08-09 08:38:32.853301-0700 Hello_MultiScreen_iPhone[6967:438600] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=6967
+2022-08-09 08:38:32.853491-0700 Hello_MultiScreen_iPhone[6967:438600] SecTaskCopyDebugDescription: Hello_MultiScree[6967]/0#-1 LF=0
+2022-08-09 08:38:32.882558-0700 Hello_MultiScreen_iPhone[6967:438600] [ViewportSizing] maximumViewportInset cannot be larger than frame
+2022-08-09 08:38:32.882716-0700 Hello_MultiScreen_iPhone[6967:438600] [ViewportSizing] minimumViewportInset cannot be larger than frame
+2022-08-09 08:38:33.002866-0700 Hello_MultiScreen_iPhone[6

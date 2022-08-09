@@ -124,6 +124,8 @@
     <None Include="Info %284th copy%29.plist" />
     <None Include="Info %285th copy%29.plist" />
     <None Include="Info %286th copy%29.plist" />
+    <InterfaceDefinition Include="Screens\EditFoodJournalScreen.xib" />
+    <InterfaceDefinition Include="Screens\HomeScreen2.xib" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EmailFileRead.cs" />
@@ -152,6 +154,10 @@
     <Compile Include="Screens\EditImportant.designer.cs" />
     <Compile Include="Screens\EditVideo.cs" />
     <Compile Include="Screens\EditVideo.designer.cs" />
+    <Compile Include="Screens\EditFoodJournalScreen.cs" />
+    <Compile Include="Screens\EditFoodJournalScreen.designer.cs" />
+    <Compile Include="Screens\HomeScreen2.cs" />
+    <Compile Include="Screens\HomeScreen2.designer.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
