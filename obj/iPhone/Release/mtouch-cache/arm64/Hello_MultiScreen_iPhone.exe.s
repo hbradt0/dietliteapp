@@ -47021,7 +47021,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "8946C17F-5F97-4A30-8A3D-FF20B7B978B7"
+	.asciz "4CB955F0-8AC5-4D3E-917E-BD62D097F7A0"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -47115,7 +47115,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
-	.byte 34,212,165,90,36,216,77,30,87,93,210,25,106,229,26,204
+	.byte 107,229,230,120,30,232,52,59,108,30,10,207,205,166,9,96
 	.globl _mono_aot_module_Hello_MultiScreen_iPhone_info
 	.align 3
 _mono_aot_module_Hello_MultiScreen_iPhone_info:
